@@ -23,9 +23,7 @@ function App() {
     <div className="App">
       <Banner/>
       <Search data={usesData} setData={setData}/>
-    
       <GridPage usesData={data} />
-      
     </div>
   );
 }

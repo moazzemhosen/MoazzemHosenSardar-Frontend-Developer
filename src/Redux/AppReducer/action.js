@@ -10,6 +10,3 @@ export const getData = (getPatientparams) => (dispatch) => {
     .catch((err) => dispatch({ type: GET_DATA_FAILURE }));
 };
     
-export const PostData=(form)=>(dispatch)=> {
-  axios.post("https://json-server-heroku-production-8ef0.up.railway.app/jobs",{...form})
-}
